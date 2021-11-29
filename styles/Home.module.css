@@ -1,0 +1,20 @@
+.mainWrapper {
+  width: 100%;
+}
+
+h1.title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.description {
+  text-align: center;
+}
+
+.descriptionWrapper {
+  display: flex;
+}
+
+.stackedWrapper {
+  display: flex;
+}

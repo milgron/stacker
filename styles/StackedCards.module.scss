@@ -1,0 +1,144 @@
+.stackedCardsWrapper {
+  margin: 20px auto;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 500ms ease-in-out;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  
+  .card {
+    transition: all 500ms ease-in-out;
+    padding: 4px 8px;
+  }
+}
+
+.stackedCard {
+  position: absolute;
+  box-shadow: 0 -4px 15px rgba(0,0,0,0.05);
+  background: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  margin: 0;
+  cursor: pointer;
+}
+
+.active-card-5 {
+  .card-1 {
+    transform: translateY(450px);
+    z-index: 5;
+  }
+  .card-2 {
+    transform: translateY(400px);
+    z-index: 4;
+  }
+  .card-3 {
+    transform: translateY(350px);
+    z-index: 3;
+  }
+  .card-4 {
+    transform: translateY(300px);
+    z-index: 2;
+  }
+}
+
+.active-card-4 {
+  .card-1 {
+    transform: translateY(450px);
+    z-index: 5;
+  }
+  .card-2 {
+    transform: translateY(400px);
+    z-index: 4;
+  }
+  .card-3 {
+    transform: translateY(350px);
+    z-index: 3;
+  }
+  .card-4 {
+    transform: translateY(50px);
+    z-index: 2;
+  }
+  .card-5 {
+    transform: translateY(0);
+    z-index: 1;
+  }
+}
+
+.active-card-3 {
+  .card-1 {
+    transform: translateY(450px);
+    z-index: 5;
+  }
+  .card-2 {
+    transform: translateY(400px);
+    z-index: 4;
+  }
+  .card-3 {
+    transform: translateY(100px);
+    z-index: 3;
+  }
+  .card-4 {
+    transform: translateY(50px);
+    z-index: 2;
+  }
+  .card-5 {
+    transform: translateY(0);
+    z-index: 1;
+  }
+}
+
+.active-card-2 {
+  .card-1 {
+    transform: translateY(450px);
+    z-index: 5;
+  }
+  .card-2 {
+    transform: translateY(150px);
+    z-index: 4;
+  }
+  .card-3 {
+    transform: translateY(100px);
+    z-index: 3;
+  }
+  .card-4 {
+    transform: translateY(50px);
+    z-index: 2;
+  }
+  .card-5 {
+    transform: translateY(0);
+    z-index: 1;
+  }
+}
+
+.active-card-1 {
+  .card-1 {
+    transform: translateY(200px);
+    z-index: 5;
+  }
+  .card-2 {
+    transform: translateY(150px);
+    z-index: 4;
+  }
+  .card-3 {
+    transform: translateY(100px);
+    z-index: 3;
+  }
+  .card-4 {
+    transform: translateY(50px);
+    z-index: 2;
+  }
+  .card-5 {
+    transform: translateY(0);
+    z-index: 1;
+  }
+}
+
+
+
+
